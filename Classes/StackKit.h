@@ -23,7 +23,7 @@
  THE SOFTWARE.
  **/
 
-#ifdef StackKitMobile
+#ifdef TARGET_OS_IPHONE | TARGET_IPHONE_SIMULATOR
 #import <UIKit/UIKit.h>
 #else
 #import <Cocoa/Cocoa.h>

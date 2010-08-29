@@ -36,7 +36,7 @@ void SKQLog(NSString *format, ...);
 id SKInvalidPredicateErrorForFetchRequest(SKFetchRequest * request, NSDictionary * userInfo);
 
 BOOL SKIsVectorClass(id value);
-NSString * SKExtractVector(id value, SKExtractor extractor);
+//NSString * SKExtractVector(id value, SKExtractor extractor);
 NSString * SKVectorizedCollection(id value);
 
 id SKExtractPostID(id value);

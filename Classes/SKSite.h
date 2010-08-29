@@ -88,6 +88,8 @@ typedef enum {
 + (id) serverFaultSite;
 + (id) superUserSite;
 
+- (NSString*) description;
+
 - (SKSite *) qaSite;
 - (SKSite *) metaSite;
 - (SKSite *) companionSite;
