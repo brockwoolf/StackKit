@@ -188,6 +188,10 @@ NSArray * _skKnownSites = nil;
 	return SKAPIVersion;
 }
 
+- (NSString*) description {
+	return [NSString stringWithFormat:@"SiteName:(%@) SiteURL:(%@) Summary:(%@)", self.name, [self.siteURL description], self.summary];
+}
+
 - (SKSite *) qaSite {
 	NSString * host = [[self apiURL] host];
 	NSArray * originalHostComponents = [host componentsSeparatedByString:@"."];
